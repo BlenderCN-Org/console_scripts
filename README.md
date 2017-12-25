@@ -1,7 +1,7 @@
 This addon is a sample of API exposure to other addons.  
 ## Usage example
 
-[This addon](https://github.com/Walid-Shouman/header_buttons) is an example usage of console_writer addon
+The [header_buttons addon](https://github.com/Walid-Shouman/header_buttons) is an example usage of this (console_scripts) addon.  
 
 I'm not sure though, whether it's a better practice, to include the scripts everytime in the new module or modularize functionalities into addons.  
 If the addon is to be split we have one of 2 options through which we create an API to be used by the other modules:
