@@ -40,12 +40,17 @@ def myOperator(bpy.types.Operator):
 3. Registering/unregistering the addon doesn't make any difference.
 
 **Recommendation**:  
-Heavy structural functionalities, where multiple classes and complex functionalities exist/could exist.
+Heavy structural functionalities, where multiple classes and complex functionalities exist/could exist.  
 
-## Second Usage (Blender way)
-Creating an API that comply with Blender's exposable items.
+### Second Usage (Blender way)
+Creating an API that comply with Blender's exposable items.  
+
 ```python
-bpy.ops.console.console_write_operator(myString="str")
+def myOperator(bpy.types.Operator):
+    bl_idname = "wm.demo"
+    bl_label = "Demo"
+
+    bpy.ops.console.console_write_operator(myString="my message")
 ```
 
 **Pros**:  
