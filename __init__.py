@@ -6,7 +6,7 @@
 # bl_info must be initialized in this file, as it gets parsed
 bl_info = \
     {
-        "name": "Console Writer",
+        "name": "Console Scripts",
         "author" : "Walid Shouman <eng.walidshouman@gmail.com>",
         "version" : (1, 0, 0),
         "blender" : (2, 7, 9),
