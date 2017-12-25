@@ -1,6 +1,8 @@
 This addon is a sample of API exposure to other addons.  
 ## Usage example
 
+[This addon](https://github.com/Walid-Shouman/header_buttons) is an example usage of console_writer addon
+
 I'm not sure though, whether it's a better practice, to include the scripts everytime in the new module or modularize functionalities into addons.  
 If the addon is to be split we have one of 2 options through which we create an API to be used by the other modules:
 
@@ -62,5 +64,5 @@ def myOperator(bpy.types.Operator):
 - Limited API exposure: Only Blender operators could be exposed, and argument types are the supported Blender attributes.
 
 **Recommendation**:  
-Heavy structural functionalities, where multiple classes and complex functionalities exist/could exist.
+Basic functionalities that could be defined a limited number of operators, with Blender complying attributes.
 
